@@ -1,0 +1,86 @@
+{  
+   "manage":[  
+      {  
+         "category": "Human Resources",
+         "unit": {
+            "subunits": [
+               {
+                  "name": "Management",
+                  "units": [
+                     {
+                        "id": 1,
+                        "name": "Bill"
+                     },
+                     {
+                        "id": 2,
+                        "name": "Sophia"
+                     }
+                  ]
+               },
+               {
+                  "name": "Workers",
+                  "units": [
+                     {
+                        "id": 1,
+                        "name": "Steve"
+                     },
+                     {
+                        "id": 2,
+                        "name": "Linda"
+                     },
+                     {
+                        "id": 3,
+                        "name": "Henry"
+                     },
+                     {
+                        "id": 4,
+                        "name": "Joseph"
+                     },
+                     {
+                        "id": 5,
+                        "name": "Frank"
+                     },
+                     {
+                        "id": 7,
+                        "name": "Kelly"
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {  
+         "category": "Equipment",
+         "unit": {
+            "subunits": [
+               {
+                  "name": "Hardware",
+                  "units": [
+                     {
+                        "id": 1,
+                        "name": "Metal"
+                     },
+                     {
+                        "id": 2,
+                        "name": "Plastic"
+                     }
+                  ]
+               },
+               {
+                  "name": "Software",
+                  "units": [
+                     {
+                        "id": 1,
+                        "name": "M-Pro"
+                     },
+                     {
+                        "id": 2,
+                        "name": "Display Controller"
+                     }
+                  ]
+               }
+            ]
+         }
+      }
+   ]
+}

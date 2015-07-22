@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+		<title>UI5 Splittemplate</title>
+		<meta name="description" content="Lightweight Split Application Template for SAP UI5 Applications" />
+		<script src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-xx-bindingSyntax="complex"
+				data-sap-ui-resourceroots='{
+					"com.splittemplate.view": "./view",
+					"com.splittemplate": "./"
+				}'
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+		<script>
+				sap.ui.getCore().attachInit(function() {
+					new sap.m.Shell('Shell',{
+						app: new sap.ui.core.ComponentContainer({
+							name: 'com.splittemplate',
+							height: '100%'
+						})
+					}).placeAt('content');
+
+					//overwrite default language loading
+					sap.ui.getCore().getConfiguration().setLanguage('en');
+				});
+		</script>
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>
